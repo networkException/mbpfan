@@ -14,6 +14,13 @@ This enhanced version assumes any number of processors and fans (max. 10).
 * Verbose mode for both syslog and stdout
 * Users can configure it using the file /etc/mbpfan.conf
 
+**AppleSMC**
+
+This repo provides an extra script to configure this tool to work with newer MacBook models. Run `./configurePath.sh` before building / installing.
+
+Tested Models:
+- MacBook Pro 15,1 (Ubuntu, 5.7.15-mbp-alt)
+
 **Table Of Contents**
 
 - [Supported GNU/Linux Distributions](#supported-gnulinux-distributions)
@@ -72,6 +79,7 @@ lsmod | grep -e applesmc -e coretemp
 ```
 
 If you see `coretemp` and `applesmc` listed, you are all set.
+(If you don't see `applesmc` you might be on a newer model and should run `./configurePath.sh`)
 
 **If you do not see `coretemp` and `applesmc` listed, you must load them.**
 
