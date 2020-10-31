@@ -8,6 +8,7 @@ This repo provides an extra script to configure this tool to work with newer Mac
 
 Tested Models:
 - MacBook Pro 15,1 (Ubuntu, 5.7.15-mbp-alt)
+- MacBook Pro 15,1 (Arch, 5.7.19-mbp)
 
 ### Generic Install Instructions (All Other Operating Systems)
 
