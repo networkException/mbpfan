@@ -1,4 +1,4 @@
-found=$(find /sys/devices -name "*fan*" | head -1)
+found=$(find /sys/devices -wholename "*APP0001:00/fan*" | head -1)
 path=$(dirname $found)
 
 echo " ------------------------------------- "
