@@ -7,6 +7,7 @@ This is a fork of [linux-on-mac/mbpfan](https://github.com/linux-on-mac/mbpfan).
 This repo provides an extra script to configure this tool to work with Macs that have a t2 patched kernel. Run `./configurePath.sh` before building / installing. Visit [t2linux.org](https://t2linux.org) for more information on the kernels.
 
 Tested Models:
+- MacBook Pro 16,1 (Ubuntu, 5.7.19-mbp)
 - MacBook Pro 15,1 (Ubuntu, 5.7.15-mbp-alt)
 - MacBook Pro 15,1 (Arch, 5.7.19-mbp)
 
