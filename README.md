@@ -72,6 +72,10 @@ execute the following (as root):
     -f Run in foreground
     -v Be (a lot) verbose
 
+## Forcing a certain fanspeed
+
+Edit `/etc/mpbfan.conf`, uncomment `min_fan1_speed` and set it to some rpm that you want. Then restart the deamon.
+
 ## License
 
 GNU General Public License version 3
