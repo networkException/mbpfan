@@ -20,7 +20,7 @@ sed -i "277s|.*|$line2|" "./src/mbpfan.c"
 echo "  Patched mbpfan.c"
 echo ""
 echo "  See further install instructions here: "
-echo "  https://github.com/networkException/mbpfan/#generic-install-instructions-all-other-operating-systems"
+echo "  https://wiki.t2linux.org/guides/fan/"
 echo "  It's advised to also run the tests to check if the patch was successful"
 echo " ------------------------------------- "
 
