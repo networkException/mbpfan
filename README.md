@@ -15,7 +15,7 @@ Tested Models:
 
 ## Install
 
-See https://wiki.t2linux.org/guides/fan/
+See [wiki.t2linux.org/guides/fan](https://wiki.t2linux.org/guides/fan/)
 
 ## Usage
 
