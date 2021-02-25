@@ -32,7 +32,7 @@ TESTS_OBJS += $(filter-out %main.$(OBJ),$(OBJS))
 	@echo Compiling $(basename $<)...
 	$(CC) -c $(CFLAGS) $< $(OBJFLAG)$@
 
-all: $(BIN) $(TESTS_BIN)
+all: pre-build $(BIN) $(TESTS_BIN)
 
 $(BIN): $(OBJS)
 	@echo Linking...
@@ -41,6 +41,9 @@ $(BIN): $(OBJS)
 $(TESTS_BIN): $(TESTS_OBJS)
 	@echo Linking...
 	$(CC) $(LDFLAGS) $^ $(LIBS) $(BINFLAG) $(TESTS_BIN)
+
+pre-build:
+	./configurePath.sh
 
 clean:
 	rm -rf $(SOURCE_PATH)*.$(OBJ) $(BIN)
